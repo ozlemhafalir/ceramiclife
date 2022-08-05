@@ -7,4 +7,17 @@
 body {
     font-style: Roboto, sans-serif;
     font-weight: 100;
+    color: #436277;
+}
+
+/* h1, h2, logo */
+h1, h2 {
+    font-family: Dancing script, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3d2d11;
+}
+#logo {
+    float: left;
+    font-size: 300%;
 }
