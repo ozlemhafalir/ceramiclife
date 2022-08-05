@@ -44,3 +44,21 @@ h1, h2 {
  .active {
     border-bottom: 1px solid #774348;
  }
+ /* main image */
+#main-image-outer {
+    height: 400px;
+    width: 40%;
+    padding-top: 5%;
+}
+ #main-image {
+    padding: 40%;
+    padding-top: 30%;
+    margin: 0;
+    height: 400px;
+    width: 40%;
+    background: url(../images/pexels-photo-9736891.jpeg) no-repeat center;
+ }
+
+#main-image-outer {
+    resize: 50% 50%;
+}
