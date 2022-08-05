@@ -20,6 +20,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 20px;
 }
 /* navigation links */
 #menu {
@@ -48,7 +49,7 @@ h1, h2 {
 #main-image-outer {
     height: 400px;
     width: 40%;
-    padding-top: 5%;
+    padding-top: 4%;
 }
  #main-image {
     padding: 40%;
@@ -61,4 +62,27 @@ h1, h2 {
 
 #main-image-outer {
     resize: 50% 50%;
+}
+/* gen-information */
+
+#gen-information {
+    height: 300px;
+   
+}
+
+#course-description {
+    padding-top: 10px;
+    width: 40%;
+    float: right;
+    background-color: black;
+}
+#time-table {
+    padding-top: 10px;
+    width: 40%;
+    float: right;
+   background-color: red;
+}
+
+#gen-information > div {
+    padding-top: 200px;
 }
