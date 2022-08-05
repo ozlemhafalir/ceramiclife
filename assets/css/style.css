@@ -12,12 +12,35 @@ body {
 
 /* h1, h2, logo */
 h1, h2 {
-    font-family: Dancing script, sans-serif;
+    font-family: Roboto, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #3d2d11;
 }
 #logo {
     float: left;
     font-size: 300%;
 }
+/* navigation links */
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    }
+    #menu, #logo {
+        line-height: 75px;
+    }
+ #menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+ }   
+ #menu a {
+   text-decoration: none;
+   color: inherit;
+ }
+ #menu a:hover{
+    border-bottom: 1px solid #774348;
+ }
+ .active {
+    border-bottom: 1px solid #774348;
+ }
