@@ -4,85 +4,78 @@
     padding: 0;
     border: none;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 body {
-    font-style: Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 100;
     color: #436277;
 }
-
-/* h1, h2, logo */
-h1, h2 {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #3d2d11;
+header {
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
 }
 #logo {
-    float: left;
-    font-size: 300%;
-    margin-left: 20px;
+    font-size: 2em;
+    font-weight: 100;
 }
 /* navigation links */
 #menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    }
-    #menu, #logo {
-        line-height: 75px;
-    }
- #menu li {
-    float: right;
+    display: flex;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+}
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
     list-style-type: none;
     margin-right: 30px;
- }   
- #menu a {
-   text-decoration: none;
-   color: inherit;
- }
- #menu a:hover{
+}   
+ 
+#menu a:hover{
     border-bottom: 1px solid #774348;
- }
- .active {
+}
+.active {
     border-bottom: 1px solid #774348;
- }
- /* main image */
-#main-image-outer {
-    height: 400px;
-    width: 40%;
-    padding-top: 4%;
-}
- #main-image {
-    padding: 40%;
-    padding-top: 30%;
-    margin: 0;
-    height: 400px;
-    width: 40%;
-    background: url(../images/pexels-photo-9736891.jpeg) no-repeat center;
- }
-
-#main-image-outer {
-    resize: 50% 50%;
-}
-/* gen-information */
-
-#gen-information {
-    height: 300px;
-   
 }
 
-#course-description {
-    padding-top: 10px;
-    width: 40%;
-    float: right;
-    background-color: black;
+h1, h2 {
+    line-height: 2.5em;
 }
-#time-table {
-    padding-top: 10px;
-    width: 40%;
-    float: right;
-   background-color: red;
+#main-container {
+    background: url(../images/pexels-photo-9736891.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    min-height: 60vh;
+}
+.main-content {
+    background: rgba(77,43,48, 0.5);
+    color: #cccccc;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+.social-media-container {
+    text-align: center;
+}
+#social-media-links {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+#social-media-links li {
+    list-style-type: none;
+    margin: 20px;
 }
 
-#gen-information > div {
-    padding-top: 200px;
+#social-media-links li:hover {
+    list-style-type: none;
+    margin: 20px;
+    color: #774348;
 }
