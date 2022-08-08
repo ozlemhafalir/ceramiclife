@@ -31,13 +31,39 @@
             </ul>
         </nav>
     </header>
-    <section id="main-container">
-        <div class="main-content">
-            <h1>WE'RE KNEADING OUR CREATIVITY!</h1>
-            <h2>Course Description</h2>
-            <p> rgijrgovskif opiejrgporgijrgovskif opiejrgpoiwerjpo peorigjpeorigjepo poirgjpeorijperoji eorigjeproiwerjpo peorigjpeorigjepo poirgjpeorijperoji eorigjepro</p>
-            <h2>Time Table</h2>
-            <p> rgijrgovskif opiejrgporgijrgovskif opiejrgpoiwerjpo peorigjpeorigjepo poirgjpeorijperoji eorigjeproiwerjpo peorigjpeorigjepo poirgjpeorijperoji eorigjepro</p>
+    <section id="signup-container">
+        <div class="signup-content">
+            <h1>Be in our community!</h1>
+            <form id="signup-form" method="POST" action="">
+                <div class="form-item">
+                    <label class="form-label" for="name">Name:</label>
+                    <input class="form-input" name="name" id="name" type="text" required/>
+                </div>
+                <div class="form-item">
+                    <label class="form-label" for="lastname">Last Name:</label>
+                    <input class="form-input" name="lastname" id="lastname" type="text" required/>
+                </div>
+                <div class="form-item">
+                    <label class="form-label" for="email">Email:</label>
+                    <input class="form-input" name="email" id="email" type="email" required/>
+                </div>
+                <div class="form-item">
+                    <label class="form-label">Days:</label>
+                    <div class="form-input">
+                        <div>
+                            <label for="weekdays">Weekdays: </label>
+                            <input type="radio" name="days" id="weekdays" value="weekdays" required>
+                        </div>
+                        <div>
+                            <label for="weekends">Weekends: </label>
+                            <input type="radio" name="days" id="weekends" value="weekends">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-action">
+                    <input type="submit" value="SUBMIT"/>
+                </div>
+            </form>
         </div>
     </section>
     <footer class="social-media-container">

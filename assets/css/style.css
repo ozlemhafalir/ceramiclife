@@ -66,6 +66,53 @@ h1, h2 {
 .gallery-content {
     text-align: center;
 }
+#about-container {
+    background: url(../images/about-us.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    min-height: 60vh;
+    position: relative;
+}
+.about-content {
+    background: rgba(77,43,48, 0.5);
+    color: #cccccc;
+    padding: 40px;
+    position: absolute;
+    bottom: 40px;
+    top: 40px;
+    left: 40px;
+    right: 50%;
+}
+.about-content .contact {
+    position: absolute;
+    bottom: 40px;
+}
+#signup-container {
+    background: url(../images/main.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    min-height: 60vh;
+}
+.signup-content {
+    background: rgba(77,43,48, 0.5);
+    color: #cccccc;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+#signup-form {
+    width: 500px;
+}
+.form-label {
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+}
+.form-input {
+    width: 350px;
+}
 .gallery-images {
     display: grid;
     display: grid;
