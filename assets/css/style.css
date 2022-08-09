@@ -44,7 +44,7 @@ header {
 }
 
 
-h1, h2 {
+h2, h3 {
     line-height: 2.5em;
 }
 #main-container {
@@ -97,7 +97,7 @@ h1, h2 {
 }
 .signup-header {
     text-align: center;
-    color: #cccccc;
+    color: #774348;
 }
 .signup-content {
     background: rgba(77,43,48, 0.5);
@@ -161,6 +161,10 @@ h1, h2 {
     color: #774348;
 }
 
+fieldset legend {
+    display: none;
+}
+
 
 @media only screen and (max-width: 600px) {    
     header {
@@ -171,7 +175,7 @@ h1, h2 {
         white-space: nowrap;
         letter-spacing: 0;
     }
-    .gallery-content > h1 {
+    .gallery-content > h2 {
         font-size: 1.2em;
     }
     .gallery-images {

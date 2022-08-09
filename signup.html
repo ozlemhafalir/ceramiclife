@@ -17,9 +17,6 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
                     <a href="gallery.html">Gallery</a>
                 </li>
                 <li>
@@ -32,7 +29,7 @@
         </nav>
     </header>
     <section id="signup-container">
-        <h1 class="signup-header">Be in our community!</h1>
+        <h2 class="signup-header">Be in our community!</h2>
         <div class="signup-content">
             <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
                 <div class="form-item">
@@ -50,10 +47,13 @@
                 <div class="form-item">
                     <label class="form-label">Days:</label>
                     <div class="form-input">
+                        <fieldset>
+                            <legend>Days</legend>
                             <label for="weekdays">Weekdays: </label>
                             <input type="radio" name="days" id="weekdays" value="weekdays" required>
                             <label for="weekends">Weekends: </label>
                             <input type="radio" name="days" id="weekends" value="weekends">
+                        </fieldset>
                     </div>
                 </div>
                 <div class="form-action">
@@ -64,10 +64,10 @@
     </section>
     <footer class="social-media-container">
         <ul id="social-media-links">
-            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/" aria-label="Facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/" aria-label="Twitter" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.youtube.com/" aria-label="Youtube" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="https://www.instagram.com/" aria-label="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
         </ul>
     </footer>
     <script src="https://kit.fontawesome.com/e080788e0b.js" crossorigin="anonymous"></script>
