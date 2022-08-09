@@ -95,23 +95,42 @@ h1, h2 {
     padding: 40px;
     min-height: 60vh;
 }
+.signup-header {
+    text-align: center;
+    color: #cccccc;
+}
 .signup-content {
     background: rgba(77,43,48, 0.5);
     color: #cccccc;
     padding: 40px;
     text-align: center;
-    margin-top: 40px;
+    width: 450px;
+    margin: 0 auto;
 }
-#signup-form {
-    width: 500px;
+.form-item {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
 }
 .form-label {
     display: inline-block;
     text-align: left;
-    width: 150px;
 }
 .form-input {
     width: 350px;
+    text-align: left;
+}
+.form-action {
+    text-align: right;
+}
+.form-action input {
+    background-color: #774348;
+    border: none;
+    color: #cccccc;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
 }
 .gallery-images {
     display: grid;
