@@ -43,6 +43,7 @@ header {
     border-bottom: 1px solid #774348;
 }
 
+
 h1, h2 {
     line-height: 2.5em;
 }
@@ -61,7 +62,7 @@ h1, h2 {
     margin-top: 40px;
 }
 #gallery-container {
-    padding: 40px;
+    padding: 0 40px 40px 40px;
 }
 .gallery-content {
     text-align: center;
@@ -72,21 +73,20 @@ h1, h2 {
     background-position: center;
     padding: 40px;
     min-height: 60vh;
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .about-content {
     background: rgba(77,43,48, 0.5);
     color: #cccccc;
-    padding: 40px;
-    position: absolute;
-    bottom: 40px;
-    top: 40px;
-    left: 40px;
-    right: 50%;
+    padding: 30px;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.about-content .contact {
-    position: absolute;
-    bottom: 40px;
+.about-content > div {
+    margin: 10px;
 }
 #signup-container {
     background: url(../images/main.jpeg);
@@ -134,7 +134,6 @@ h1, h2 {
 }
 .gallery-images {
     display: grid;
-    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 1rem;
 }
@@ -160,4 +159,32 @@ h1, h2 {
     list-style-type: none;
     margin: 20px;
     color: #774348;
+}
+
+
+@media only screen and (max-width: 600px) {    
+    header {
+        flex-direction: column;
+    }
+    #menu {
+        font-size: 0.9em;
+        white-space: nowrap;
+        letter-spacing: 0;
+    }
+    .gallery-content > h1 {
+        font-size: 1.2em;
+    }
+    .gallery-images {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .signup-content {
+        width: inherit;
+    }
+    .form-item {
+        flex-direction: column;
+    }
+    .form-input {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
