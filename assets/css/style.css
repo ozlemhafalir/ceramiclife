@@ -78,7 +78,7 @@ h2, h3 {
 }
 .about-content {
     background: rgba(77,43,48, 0.5);
-    color: #cccccc;
+    color: white;
     padding: 30px;
     grid-column: 1;
     display: flex;
@@ -97,7 +97,7 @@ h2, h3 {
 }
 .signup-header {
     text-align: center;
-    color: #774348;
+    color: white;
 }
 .signup-content {
     background: rgba(77,43,48, 0.5);
