@@ -34,7 +34,7 @@ header {
 #menu li {
     list-style-type: none;
     margin-right: 30px;
-}   
+}
  
 #menu a:hover{
     border-bottom: 1px solid #774348;
@@ -60,6 +60,9 @@ h2, h3 {
     padding: 40px;
     text-align: center;
     margin-top: 40px;
+}
+#timetable > li {
+    list-style-type: none;
 }
 #gallery-container {
     padding: 0 40px 40px 40px;
@@ -190,5 +193,10 @@ fieldset legend {
     .form-input {
         width: 100%;
         margin-top: 10px;
+    }
+    #about-container {
+        padding: 40px;
+        min-height: 60vh;
+        display: block;
     }
 }
