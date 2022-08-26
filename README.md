@@ -72,26 +72,44 @@ There is no known bugs in this project.
 ## Credits
 ### Media
 
-*Gallery images:*
+**Gallery images:**
+
 https://www.pexels.com/photo/photo-of-pots-on-shelves-3094033/
+
 https://www.pexels.com/photo/gray-round-clay-pot-3692063/
+
 https://www.pexels.com/photo/close-up-view-of-clay-for-pottery-6611175/
+
 https://www.pexels.com/photo/handmade-pottery-on-table-in-workshop-6611373/
+
 https://www.pexels.com/photo/close-up-of-handmade-pottery-on-shelf-6611419/
+
 https://www.pexels.com/photo/wood-hands-people-woman-6694312/
+
 https://www.pexels.com/photo/white-printer-paper-with-red-color-9733006/
+
 https://www.pexels.com/photo/wood-couple-creative-building-9733315/
+
 https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-on-chair-9736505/
+
 https://www.pexels.com/photo/white-and-blue-hanging-ornament-9736532/
+
 https://www.pexels.com/photo/person-in-white-shirt-holding-round-wooden-plate-9736891/
+
 https://www.pexels.com/photo/brown-ceramic-mug-with-brown-liquid-inside-3277951/
+
 https://www.pexels.com/photo/skilled-black-craftswoman-painting-on-ceramic-earthenware-in-studio-3817500/
+
 https://www.pexels.com/photo/a-person-holding-a-ceramic-plate-9304570/
+
 https://www.pexels.com/photo/pampas-grass-on-ceramic-vase-9850116/
+
 https://www.pexels.com/photo/white-ceramic-figurine-on-brown-wooden-table-10970680/
 
-*Homepage and sign up banner image*
+**Homepage and sign up banner image**
+
 https://www.pexels.com/photo/person-in-white-shirt-holding-round-wooden-plate-9736891/
 
-*About us banner image*
+**About us banner image**
+
 https://www.pexels.com/photo/photo-of-woman-doing-ceramic-sculpture-5682176/
